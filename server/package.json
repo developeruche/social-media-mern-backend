@@ -1,0 +1,23 @@
+{
+  "name": "social_backend",
+  "version": "1.0.0",
+  "description": "This is the backend of the social media MERN stark project i am working on",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "social"
+  ],
+  "author": "developeruche",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.3"
+  }
+}
